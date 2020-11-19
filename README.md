@@ -1,2 +1,2 @@
 # LWCBootCamp
-LWCBootCamp
+Module02 - Helloworld
