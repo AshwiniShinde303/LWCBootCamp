@@ -1,0 +1,27 @@
+blue {
+    color: rgb(0, 112, 210);
+  }
+  red {
+    color: red;
+  }
+  green {
+    color: green;
+  }
+  ul.a {
+    list-style-type: square;
+    align-items: center;
+    
+  }
+   div{
+       background-color: white;
+        align-content: center;
+        border: black;
+   }
+
+  .app {
+    background-color: #fafaf9;
+    height: 100vh;
+    overflow: scroll;
+  }
+  
+  
