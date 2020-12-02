@@ -1,0 +1,19 @@
+<template>
+     <lightning-card title="ConditionalRendering" icon-name="custom:custom19">
+        <div class="slds-m-around_medium">
+            <template if:false= {showpic}>
+            <img src={Tom}  width="300" height="300"> <br>
+            <p>displaying tom cause cant see the pic</p>
+            <lightning-button label='Tom&jerry' variant='brand' onclick={display}> </lightning-button>
+        </template>
+        <template if:true={showpic}>
+                <img src={Jerry}  width="300" height="300"> 
+                <p>displaying jerry</p>
+                <lightning-button label='jerry&Tom' variant='brand' onclick={display2}> </lightning-button>
+        </template>
+            
+        
+        </div>
+    </lightning-card>
+    
+</template>
